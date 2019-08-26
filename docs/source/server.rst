@@ -23,7 +23,7 @@ Once installed, you can use the command line interface to start a bert server:
 .. highlight:: bash
 .. code-block:: bash
 
-    bert-serving-server -model_dir /uncased_bert_model -num_worker 4
+    bert-serving-start -model_dir /uncased_bert_model -num_worker 4
 
 Server-side API
 ---------------
